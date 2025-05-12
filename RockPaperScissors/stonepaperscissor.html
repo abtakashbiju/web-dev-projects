@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissor</title>
+    <link rel = "stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <p class="heading">Rock Paper Scissors</p>
+    
+    <button class="player-button" onclick="userSelect('rock')">
+      <img src="rock.png" class="button-image">
+    </button>
+
+    <button class="player-button" onclick="userSelect('paper')">
+      <img src="paper.png" class="button-image" >
+    </button>
+    
+    <button class="player-button" onclick="userSelect('scissors')">
+      <img src="scissors.png" class="button-image">
+    </button>
+
+    <!-- <div class="selection-text"></div> -->
+    
+    <p class="result-text"></p>
+
+    <div class="selection-box">
+      <p class="player-move"></p>
+    </div>
+    
+    <button class="reset-button" onclick="resetScore()">Reset Score</button>
+
+    <p class="score-text"></p>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
