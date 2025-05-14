@@ -2,16 +2,18 @@
 <html>
   <head>
     <title>To Do List</title>
-    
+    <link href="style.css" rel="stylesheet">
     <script src="script.js"></script>
   </head>
   <body>
+    <div class="default-box">
+      <input placeholder="Type here" class="input-box" onkeydown="keyPress()">
+      <input type="date" class="input-date">
+      <button class="add-button" onclick="save()">Add</button>
+    </div>
     
-    <input placeholder="Type here" class="input-box" onkeydown="keyPress()">
-    <input type="date" class="input-date">
-    <button class="save-button" onclick="save()">Add</button>
-
-    <div class="result-box"></div>
+    <div class="result-box">
+    </div>
 
   </body>
 </html>
