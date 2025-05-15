@@ -12,7 +12,25 @@ if(score === null){
     ties:0
   }
 }
+let autoSelect='';
 
+let autoStatus = false;
+
+function autoplay(){
+  if(autoStatus === false){
+      autoSelect = setInterval(function(){
+      user = computerSelect();
+      userSelect(user);} 
+      ,1000
+    );
+    autoStatus = true;
+  }else{
+    clearInterval(autoSelect);
+    autoStatus = false;
+  }
+}
+
+// setInterval(function(){console.log("hello")},2000);
 
 function computerSelect(){
   let num = Math.random();
@@ -24,6 +42,7 @@ function computerSelect(){
   }else{
     computer = 'scissors';
   }
+  return computer;
 }
 
 function userSelect(button){
@@ -84,5 +103,6 @@ function resetScore(){
     loses:0,
     ties:0
   }
+  localStorage.setItem('score', JSON.stringify(score));
   results();
 }
