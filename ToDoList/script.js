@@ -20,24 +20,22 @@ function render(){
   let length = list.length;
   // console.log(length);
   let HTML = '';
-  for(let i=0; i<length; i++){
+  list.forEach(function(value, i){
     HTML += `
-    <p>${list[i].name} </p>
-    <p>${list[i].date} </p>
+    <p>${value.name} </p>
+    <p>${value.date} </p>
     <button onclick="deleteElement(${i})" class="delete-button">Delete
     </button>`;
-  }
+  });
   document.querySelector('.result-box').innerHTML=HTML;
   // console.log(x);
 }
 
-/*
 function keyPress(){
   if(event.key === 'Enter'){
     save();
   }
 }
-*/
 
 function deleteElement(i){
   list.splice(i, 1);
