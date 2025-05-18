@@ -1,0 +1,27 @@
+.side-bar{
+    z-index:200;
+    width:72px;
+    position: fixed;
+    left:0;
+    bottom:0;
+    top:56px;
+    background-color:white;
+    padding-top:5px;
+}
+.side-link{
+    background-color:white;
+    height:74px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    row-gap:5px;
+    font-size:10px;
+}
+.side-link:hover{
+    background-color:rgb(240, 240, 240);
+    cursor:pointer;
+}
+.side-link img{
+    height:25px;
+}

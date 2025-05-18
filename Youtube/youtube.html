@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+       <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/side-bar.css">
+
+    </head>
+    <body class=body>
+        <header class=top-bar>
+            <div class=left-bar>
+                <img class="hamburger" src="top_bar/hamburger-menu1.svg">
+                <img class="youtube_logo" src="top_bar/youtube-logo.svg">
+            </div>
+            <div class=middle-bar>
+                <input class=searchbar type="search" placeholder="Search">
+                <button class=search-button><img class="search_icon" src="top_bar/search.svg">
+                    <div>
+                        Search
+                    </div>
+                </button>    
+                <button class=voice-search-button><img class="voice_search" src="top_bar/voice-search-icon.svg">
+                    <div>
+                        Search with voice
+                    </div>
+                </button>
+            </div>
+            <div class=right-bar>
+                <div class=upload-button>
+                    <img class=upload src=top_bar/upload.svg>
+                    <div>
+                        Create
+                    </div>
+                </div>
+                <div class=youtube-app>
+                    <img class=youtube-apps src=top_bar/youtube-apps.svg>
+                    <div>
+                        YouTube apps
+                    </div>
+                </div>
+                
+                <div class=notification-container>
+                    <img class=notification src=top_bar/notifications.svg>
+                    <div class=notification-count>
+                        <p>3</p>
+                    </div>
+                    <div class=tooltip>
+                        Notifications
+                    </div>
+                </div>
+                <img class=channel-profile src=top_bar/my-channel.jpeg>
+            </div>
+        </header>
+        <nav class=side-bar>
+          <div class=side-link>
+              <img src=left_bar/home.svg>Home
+          </div>
+          <div class=side-link>
+              <img src=left_bar/explore.svg>Exolore
+          </div>
+          <div class=side-link>
+              <img src=left_bar/subscriptions.svg>Subscriptions
+          </div>
+          <div class=side-link>
+            <img src=left_bar/originals.svg>Originals
+          </div>
+          <div class=side-link>
+            <img src=left_bar/youtube-music.svg>Youtube Music
+          </div>
+          <div class=side-link>
+            <img src=left_bar/library.svg>Library
+          </div>
+        </nav>
+        <main>
+            <section class=preview_grid>
+                <div>
+                    <div class=thumbnail-box>
+                        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+                        <div class=length>
+                            <p>14:20</p>
+                        </div>
+                    </div>
+                    <div class=detailed-row>
+                        <div>
+                            <img class="channel_logo" src=profile_pictures/channel-1.jpeg>
+                        </div>
+                        <div>
+                         <p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                         <p class="creator">Marques Brownlee</p>
+                         <p class="stats">3.4M views &#183; 6 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=thumbnail-box>
+                        <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                        <div class=length>
+                            <p>8:22</p>
+                        </div>
+                    </div>
+                    <div class=detailed-row>
+                        <div class=channel_logo_div>
+                            <img class="channel_logo" src=profile_pictures/channel-2.jpeg>
+                        </div>
+                        <div>
+                         <p class="title">Try Not To Laugh Challenge #9</p>
+                         <p class="creator">Markiplier</p>
+                         <p class="stats">19M views &#183; 4 years ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=thumbnail-box>
+                        <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+                        <div class=length>
+                            <p>9:13</p>
+                        </div>
+                    </div>
+                    <div class=detailed-row>
+                        <div class=channel_logo_div>
+                            <img class="channel_logo" src=profile_pictures/channel-3.jpeg>
+                        </div>
+                        <div>
+                         <p class="title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                         <p class="creator">SSSniperWolf</p>
+                         <p class="stats">12M views · 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=thumbnail-box>
+                        <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+                        <div class=length>
+                            <p>22:09</p>
+                        </div>
+                    </div>
+                    <div class=detailed-row>
+                        <div class=channel_logo_div>
+                            <img class="channel_logo" src=profile_pictures/channel-4.jpeg>
+                        </div>
+                        <div>
+                         <p class="title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                         <p class="creator">Veritasium</p>
+                         <p class="stats">18M views · 4 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=thumbnail-box>
+                        <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+                        <div class=length>
+                            <p>11:17</p>
+                        </div>
+                    </div>
+                    <div class=detailed-row>
+                        <div class=channel_logo_div>
+                            <img class="channel_logo" src=profile_pictures/channel-5.jpeg>
+                        </div>
+                        <div>
+                         <p class="title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                         <p class="creator">CS Dojo</p>
+                         <p class="stats">519K views · 5 years ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=thumbnail-box>
+                        <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+                        <div class=length>
+                            <p>19:59</p>
+                        </div>
+                    </div>
+                    <div class=detailed-row>
+                        <div class=channel_logo_div>
+                            <img class="channel_logo" src=profile_pictures/channel-6.jpeg>
+                        </div>
+                        <div>
+                         <p class="title">Anything You Can Fit In The Circle I’ll Pay For</p>
+                         <p class="creator">MrBeast</p>
+                         <p class="stats">141M views · 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=thumbnail-box>
+                        <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+                        <div class=length>
+                            <p>10:13</p>
+                        </div>
+                    </div>
+                    <div class=detailed-row>
+                        <div class=channel_logo_div>
+                            <img class="channel_logo" src=profile_pictures/channel-7.jpeg>
+                        </div>
+                        <div>
+                         <p class="title">Why Planes Don't Fly Over Tibet</p>
+                         <p class="creator">RealLifeLore</p>
+                         <p class="stats">6.6M views · 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=thumbnail-box>
+                        <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+                        <div class=length>
+                            <p>7:12</p>
+                        </div>
+                    </div>
+                    <div class=detailed-row>
+                        <div class=channel_logo_div>
+                            <img class="channel_logo" src=profile_pictures/channel-8.jpeg>
+                        </div>
+                        <div>
+                         <p class="title">Inside The World's Biggest Passenger Plane</p>
+                         <p class="creator">Tech Vision</p>
+                         <p class="stats">3.7M views · 10 months ago</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+    </body>
+</html>
