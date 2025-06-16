@@ -1,16 +1,22 @@
-# To-Do List App (JavaScript)
+# Rock Paper Scissors Game
 
-A simple to-do list application built using HTML, CSS, and JavaScript.
+A simple interactive Rock Paper Scissors game built using HTML, CSS, and JavaScript.
 
 ## Features
-- Add, delete, and mark tasks as completed
-- Real-time task updates
-- Minimal and responsive UI
+- User can choose rock, paper, or scissors
+- Computer randomly selects its move
+- Score is updated in real-time
+- Result is displayed instantly (Win, Lose, Draw)
 
-## Tech Used
+## Tech Stack
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (Vanilla)
+
+## How to Run
+1. Clone the repository or download the project folder.
+2. Open `rockpaperscissors.html` in any browser.
+3. Start playing by clicking on your choice.
 
 ## Screenshot
-![image](https://github.com/user-attachments/assets/51464322-7fd2-401f-8c61-e5c385d597c4)
+![image](https://github.com/user-attachments/assets/d4c2321c-b663-4644-8a4e-51784c8dbb2f)
